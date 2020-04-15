@@ -1,0 +1,11 @@
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\bin\Debug\netcoreapp3.1\Candies.exe
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\bin\Debug\netcoreapp3.1\Candies.deps.json
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\bin\Debug\netcoreapp3.1\Candies.runtimeconfig.json
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\bin\Debug\netcoreapp3.1\Candies.runtimeconfig.dev.json
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\bin\Debug\netcoreapp3.1\Candies.dll
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\bin\Debug\netcoreapp3.1\Candies.pdb
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\obj\Debug\netcoreapp3.1\Candies.csprojAssemblyReference.cache
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\obj\Debug\netcoreapp3.1\Candies.AssemblyInfoInputs.cache
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\obj\Debug\netcoreapp3.1\Candies.AssemblyInfo.cs
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\obj\Debug\netcoreapp3.1\Candies.dll
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Candies\obj\Debug\netcoreapp3.1\Candies.pdb

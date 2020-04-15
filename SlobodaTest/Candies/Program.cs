@@ -46,7 +46,7 @@ namespace SlobodaTest
         public static int TotalGifts(int X, int Y, int Z, int W)
         {
             int TargetNumber = W;
-            List<int> numbers = new List<int>{X,Y,Z};
+            List<int> numbers = new List<int> { X, Y, Z };
             numbers.Sort();
             List<int> temporaryList = new List<int>();
             List<List<int>> resultList = new List<List<int>>();
@@ -83,8 +83,8 @@ namespace SlobodaTest
                 iterator++;
 
                 // remove last number from list 
-                temporaryList.Remove(temporaryList.Count-1);
-                
+                temporaryList.Remove(temporaryList.Count - 1);
+
             }
         }
     }

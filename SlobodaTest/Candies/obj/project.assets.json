@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Sloboda\\SlobodaTestTasks\\SlobodaTest\\SlobodaTest\\Candies.csproj",
+      "projectUniqueName": "D:\\Project\\Sloboda\\SlobodaTestTasks\\SlobodaTest\\Candies\\Candies.csproj",
       "projectName": "Candies",
-      "projectPath": "D:\\Project\\Sloboda\\SlobodaTestTasks\\SlobodaTest\\SlobodaTest\\Candies.csproj",
+      "projectPath": "D:\\Project\\Sloboda\\SlobodaTestTasks\\SlobodaTest\\Candies\\Candies.csproj",
       "packagesPath": "C:\\Users\\rozzi\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Sloboda\\SlobodaTestTasks\\SlobodaTest\\SlobodaTest\\obj\\",
+      "outputPath": "D:\\Project\\Sloboda\\SlobodaTestTasks\\SlobodaTest\\Candies\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
