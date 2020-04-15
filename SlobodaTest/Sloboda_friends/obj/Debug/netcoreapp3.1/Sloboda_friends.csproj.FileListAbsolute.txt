@@ -1,0 +1,11 @@
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\obj\Debug\netcoreapp3.1\Sloboda_friends.csprojAssemblyReference.cache
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\obj\Debug\netcoreapp3.1\Sloboda_friends.AssemblyInfoInputs.cache
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\obj\Debug\netcoreapp3.1\Sloboda_friends.AssemblyInfo.cs
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\bin\Debug\netcoreapp3.1\Sloboda_friends.exe
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\bin\Debug\netcoreapp3.1\Sloboda_friends.deps.json
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\bin\Debug\netcoreapp3.1\Sloboda_friends.runtimeconfig.json
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\bin\Debug\netcoreapp3.1\Sloboda_friends.runtimeconfig.dev.json
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\bin\Debug\netcoreapp3.1\Sloboda_friends.dll
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\bin\Debug\netcoreapp3.1\Sloboda_friends.pdb
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\obj\Debug\netcoreapp3.1\Sloboda_friends.dll
+D:\Project\Sloboda\SlobodaTestTasks\SlobodaTest\Sloboda_friends\obj\Debug\netcoreapp3.1\Sloboda_friends.pdb
