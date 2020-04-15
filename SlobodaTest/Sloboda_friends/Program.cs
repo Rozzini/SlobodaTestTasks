@@ -10,19 +10,25 @@ namespace Sloboda_friends
         {
             bool Pass = false;
             int N = Validation('N');
+            do
+            {
+                if (N > 0) Pass = true;
+                else { Pass = false; N = Validation('N'); }
+
+            } while (Pass == false); 
+
             int S = Validation('S');
             do
             {
                 if (S < N) Pass = true;
-                else S = Validation('S');
-            }
-            while (Pass == false); ;
+                else { Pass = false; S = Validation('S'); }
+            }while (Pass == false); ;
 
             int[,] FriendsGrid = GridGenerator(N);
             //int[,] FriendsGrid =  {{0, 1, 0},
             //                       {1, 0, 1},
             //                       {0, 1, 0}};
-            DrawGrid(FriendsGrid, 5);
+            DrawGrid(FriendsGrid, N);
             Console.WriteLine("\nResult: " + FindFriends(S, FriendsGrid, N));
 
         }
@@ -43,7 +49,7 @@ namespace Sloboda_friends
                 }
 
                 //added this to avoid stack overflow
-                if (Grams <= 0)
+                if (Grams < 0)
                 {
                     Console.WriteLine("please input valid number");
                     Validation = true;
@@ -92,7 +98,8 @@ namespace Sloboda_friends
                 {
                     if (!CheckedPersons.Contains(i) && friendsGrid[CurrentPerson, i] == 1)
                     {
-                        //PersonsToCheck.Push(i);
+                        if(CheckedPersons.Contains(i)) PersonsToCheck.Push(i);
+                        CheckedPersons.Add(i);
                         IntersectionsCounter++;
                         FriendsCounter++;
                     }
@@ -110,7 +117,7 @@ namespace Sloboda_friends
             Random random = new Random();
 
 
-            //throw random numbers on the grid
+            //throw random numbers on the grid (from 0 to 1)
             for(int i = 0; i < N; i++)
             {
                 for (int j = 0; j < N; j++)
