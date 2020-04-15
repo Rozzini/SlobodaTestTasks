@@ -9,6 +9,9 @@ namespace Sloboda_friends
         {
             bool Pass = false;
 
+            //input validation for N, and S 
+            //N quiantity of poeple
+            //S Target Person
             int N = InputValidator.Validate('N');
             do
             {
@@ -24,10 +27,15 @@ namespace Sloboda_friends
                 else { Pass = false; S = InputValidator.Validate('S'); }
             }while (Pass == false); ;
 
+
+            //Setting Array
             int[,] FriendsGrid = Grid.GridGenerator(N);
 
+            //drawing array
             Grid.DrawGrid(FriendsGrid, N);
 
+
+            //outputing total quantity of friends for targeet person
             Console.WriteLine("\nResult: " + SlobodaFriends.FindFriends(S, FriendsGrid, N));
 
         }

@@ -7,7 +7,7 @@ namespace SlobodaTest
     {
         static void Main(string[] args)
         {
-            //input
+            //input X,Y,Z - gifts mass W - total mass for one combination
             int X = Validtaion.Validate('X');
             int Y = Validtaion.Validate('Y');
             int Z = Validtaion.Validate('Z');

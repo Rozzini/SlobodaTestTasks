@@ -7,7 +7,7 @@ namespace Secretary_Jeniffer
     {
         static void Main(string[] args)
         {
-            //input
+            //input N - needed amount of copies, x,y - Time that periner needed to print 1 copy
             int N = InputValidator.Validate('N');
             int x = InputValidator.Validate('x');
             int y = InputValidator.Validate('y');

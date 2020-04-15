@@ -43,14 +43,16 @@ namespace Sloboda_friends
                     //if friend wasnt added to list of checked persons and also if this person is really friends with CurrentPerson increment total friends count
                     if (!CheckedPersons.Contains(i) && friendsGrid[CurrentPerson, i] == 1)
                     {
-
                         if (!CheckedPersons.Contains(i)) PersonsToCheck.Push(i);
-                        //CheckedPersons.Add(i);
                         IntersectionsCounter++;
                         FriendsCounter++;
                     }
                 }
+
+                //adding cuurent person to checked list
                 CheckedPersons.Add(CurrentPerson);
+
+                //loop will run till stack become empty
             } while (PersonsToCheck.Count > 0);
 
             return FriendsCounter;
